@@ -1,4 +1,10 @@
-.App {
-  height: 100vh;
-  font-size: 14px;
+.parent {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; 
+  grid-template-rows: 1fr 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "left right"; 
 }
+.left { grid-area: left; }
+.right { grid-area: right; }
