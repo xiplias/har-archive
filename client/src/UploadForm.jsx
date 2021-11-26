@@ -28,7 +28,7 @@ export default function UploadForm() {
   return (
     <>
       <div className="top">
-        <h1>HAR Persistant Archive</h1>
+        <h1>HAR Persistent Interface</h1>
         <p>Upload your HAR archive and you will get a unique url that can be shared with your team</p>
       </div>
       <div className="parent">
